@@ -1,0 +1,1158 @@
+focus_tree = {
+	id = germany
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+	focus = {
+		id = GER_Continue_expansion_of_the_Wehrmacht
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 30
+		y = 0
+
+	}
+	focus = {
+		id = GER_rearmament_of_the_fleet
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 55
+		y = 0
+
+	}
+	focus = {
+		id = GER_Autarky
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 68
+		y = 0
+
+	}
+	focus = {
+		id = GER_Autobahn_construction
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 75
+		y = 2
+
+	}
+	focus = {
+		id = GER_german_red_army
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 85
+		y = 0
+
+	}
+	focus = {
+		id = GER_western_rampart
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Continue_expansion_of_the_Wehrmacht
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = GER_atlantic_shaft
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_western_rampart
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = GER_nordstern
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_atlantic_shaft
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = GER_east_rampart
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_western_rampart
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = GER_waffen_ss
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Continue_expansion_of_the_Wehrmacht
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = GER_formation_of_SS_divisions_from_foreigners
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_waffen_ss
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = GER_preparation_of_the_blitzkrieg_theory
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Continue_expansion_of_the_Wehrmacht
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = GER_command_decentralization
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_preparation_of_the_blitzkrieg_theory
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = GER_quality_selection_of_non-commissioned_officers
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_preparation_of_the_blitzkrieg_theory
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = GER_expansion_of_the_Luftwaffe
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Continue_expansion_of_the_Wehrmacht
+		}
+		x = 22
+		y = 1
+
+	}
+	focus = {
+		id = GER_naval_aviation_development
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_expansion_of_the_Luftwaffe
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = GER_Naval_Bomber_Program
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_naval_aviation_development
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = GER_carrier-based_aviation
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_naval_aviation_development
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = GER_internal_training_program
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_naval_aviation_development
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = GER_ground_units_of_the_Luftwaffe
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_expansion_of_the_Luftwaffe
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = GER_uralbomber
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_expansion_of_the_Luftwaffe
+		}
+		mutually_exclusive = {
+			focus = GER_high_speed_bombers
+		}
+		x = 21
+		y = 2
+
+	}
+	focus = {
+		id = GER_transport_aviation_program
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_uralbomber
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = GER_strategic_destruction_of_industry
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_uralbomber
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = GER_high_speed_bombers
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_expansion_of_the_Luftwaffe
+		}
+		mutually_exclusive = {
+			focus = GER_uralbomber
+		}
+		x = 23
+		y = 2
+
+	}
+	focus = {
+		id = GER_start_production_of_modern_fighters
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_high_speed_bombers
+			focus = GER_uralbomber
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = GER_heavy_fighter_cortus
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_start_production_of_modern_fighters
+			focus = GER_strategic_destruction_of_industry
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = GER_americanbomber
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_heavy_fighter_cortus
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = GER_mass_pilot_training
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_high_speed_bombers
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = GER_twin_power_plant
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_expansion_of_the_Luftwaffe
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = GER_experiments_with_turbojet_engines
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_twin_power_plant
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = GER_jet_bomber
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_experiments_with_turbojet_engines
+		}
+		prerequisite = {
+			focus = GER_heavy_fighter_cortus
+		}
+		x = 22
+		y = 5
+
+	}
+	focus = {
+		id = GER_high_speed_fighter
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_experiments_with_turbojet_engines
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = GER_work_on_the_wunderwaffe
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Continue_expansion_of_the_Wehrmacht
+		}
+		prerequisite = {
+			focus = GER_twin_power_plant
+		}
+		x = 30
+		y = 3
+
+	}
+	focus = {
+		id = GER_supercanon
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_work_on_the_wunderwaffe
+		}
+		x = 30
+		y = 4
+
+	}
+	focus = {
+		id = GER_v-2
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_supercanon
+		}
+		x = 29
+		y = 5
+
+	}
+	focus = {
+		id = GER_focus_on_uranium_project
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_supercanon
+		}
+		x = 31
+		y = 5
+
+	}
+	focus = {
+		id = GER_panzerwaffe
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Continue_expansion_of_the_Wehrmacht
+		}
+		x = 40
+		y = 1
+
+	}
+	focus = {
+		id = GER_use_of_captured_equipment
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_panzerwaffe
+		}
+		x = 34
+		y = 2
+
+	}
+	focus = {
+		id = GER_liquidation_of_the_cavalry
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_panzerwaffe
+		}
+		x = 37
+		y = 2
+
+	}
+	focus = {
+		id = GER_motorization
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_liquidation_of_the_cavalry
+		}
+		x = 37
+		y = 3
+
+	}
+	focus = {
+		id = GER_half-track_armored_personnel_carriers
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_motorization
+		}
+		x = 36
+		y = 4
+
+	}
+	focus = {
+		id = GER_support_the_idea_of_land_cruisers
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_supercanon
+		}
+		mutually_exclusive = {
+			focus = GER_push_through_the_development_of_super-heavy_tanks
+			focus = GER_new_generation_tank_concept
+		}
+		x = 37
+		y = 5
+
+	}
+	focus = {
+		id = GER_reconnaissance_tanks
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_motorization
+		}
+		x = 38
+		y = 4
+
+	}
+	focus = {
+		id = GER_two_main_battle_tank_program
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_panzerwaffe
+		}
+		x = 40
+		y = 2
+
+	}
+	focus = {
+		id = GER_focus_on_heavy_tanks
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_two_main_battle_tank_program
+		}
+		mutually_exclusive = {
+			focus = GER_combined_chassis_of_a_medium_tank
+		}
+		x = 39
+		y = 3
+
+	}
+	focus = {
+		id = GER_push_through_the_development_of_super-heavy_tanks
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_focus_on_heavy_tanks
+		}
+		mutually_exclusive = {
+			focus = GER_new_generation_tank_concept
+			focus = GER_support_the_idea_of_land_cruisers
+		}
+		x = 39
+		y = 5
+
+	}
+	focus = {
+		id = GER_combined_chassis_of_a_medium_tank
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_two_main_battle_tank_program
+		}
+		mutually_exclusive = {
+			focus = GER_focus_on_heavy_tanks
+		}
+		x = 41
+		y = 3
+
+	}
+	focus = {
+		id = GER_study_the_Soviet_experience
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_focus_on_heavy_tanks
+			focus = GER_combined_chassis_of_a_medium_tank
+		}
+		x = 40
+		y = 4
+
+	}
+	focus = {
+		id = GER_new_generation_tank_concept
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_study_the_Soviet_experience
+		}
+		mutually_exclusive = {
+			focus = GER_push_through_the_development_of_super-heavy_tanks
+			focus = GER_support_the_idea_of_land_cruisers
+		}
+		x = 41
+		y = 5
+
+	}
+	focus = {
+		id = GER_Experiments_with_self-propelled_guns
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_panzerwaffe
+		}
+		x = 43
+		y = 2
+
+	}
+	focus = {
+		id = GER_jagdpanzers
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Experiments_with_self-propelled_guns
+		}
+		x = 44
+		y = 3
+
+	}
+	focus = {
+		id = GER_anti-aircraft_tanks
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_jagdpanzers
+		}
+		x = 43
+		y = 4
+
+	}
+	focus = {
+		id = GER_use_the_Czechoslovak_industry
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_panzerwaffe
+		}
+		x = 46
+		y = 2
+
+	}
+	focus = {
+		id = GER_self-propelled_artillery_platforms
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_use_the_Czechoslovak_industry
+		}
+		prerequisite = {
+			focus = GER_jagdpanzers
+		}
+		x = 46
+		y = 4
+
+	}
+	focus = {
+		id = GER_Modernization_of_light_tanks
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_panzerwaffe
+		}
+		x = 49
+		y = 2
+
+	}
+	focus = {
+		id = GER_engineering_vehicles
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Modernization_of_light_tanks
+		}
+		x = 48
+		y = 3
+
+	}
+	focus = {
+		id = GER_underwater_tanks
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Modernization_of_light_tanks
+		}
+		x = 49
+		y = 4
+
+	}
+	focus = {
+		id = GER_use_gas_generators_on_tanks
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Modernization_of_light_tanks
+		}
+		x = 50
+		y = 3
+
+	}
+	focus = {
+		id = GER_development_of_the_navy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_rearmament_of_the_fleet
+		}
+		x = 54
+		y = 1
+
+	}
+	focus = {
+		id = GER_plan_z
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_development_of_the_navy
+		}
+		mutually_exclusive = {
+			focus = GER_submarine_development
+			focus = GER_revival_of_the_high_seas_fleet
+		}
+		x = 53
+		y = 2
+
+	}
+	focus = {
+		id = GER_lay_down_big_ships
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_plan_z
+		}
+		x = 53
+		y = 4
+
+	}
+	focus = {
+		id = GER_shipyard_expansion
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_rearmament_of_the_fleet
+		}
+		x = 56
+		y = 1
+
+	}
+	focus = {
+		id = GER_submarine_development
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_shipyard_expansion
+		}
+		prerequisite = {
+			focus = GER_development_of_the_navy
+		}
+		mutually_exclusive = {
+			focus = GER_revival_of_the_high_seas_fleet
+			focus = GER_plan_z
+		}
+		x = 55
+		y = 2
+
+	}
+	focus = {
+		id = GER_naval_blockade
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_submarine_development
+		}
+		x = 55
+		y = 3
+
+	}
+	focus = {
+		id = GER_modular_design
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_naval_blockade
+		}
+		x = 55
+		y = 4
+
+	}
+	focus = {
+		id = GER_revival_of_the_high_seas_fleet
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_shipyard_expansion
+		}
+		mutually_exclusive = {
+			focus = GER_submarine_development
+			focus = GER_plan_z
+		}
+		x = 57
+		y = 2
+
+	}
+	focus = {
+		id = GER_pride_of_modern_germany
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_revival_of_the_high_seas_fleet
+		}
+		prerequisite = {
+			focus = GER_revival_of_the_high_seas_fleet
+		}
+		x = 57
+		y = 4
+
+	}
+	focus = {
+		id = GER_across_the_atlantic
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_pride_of_modern_germany
+			focus = GER_modular_design
+			focus = GER_lay_down_big_ships
+		}
+		x = 55
+		y = 5
+
+	}
+	focus = {
+		id = GER_renew_military-economic_ties_with_the_USSR
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Autarky
+		}
+		x = 62
+		y = 1
+
+	}
+	focus = {
+		id = GER_Germany_capital_of_the_world
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Autarky
+		}
+		x = 65
+		y = 1
+
+	}
+	focus = {
+		id = GER_Four-track_railway_line
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Germany_capital_of_the_world
+		}
+		mutually_exclusive = {
+			focus = GER_broad_gauge_railway
+		}
+		x = 64
+		y = 2
+
+	}
+	focus = {
+		id = GER_broad_gauge_railway
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Germany_capital_of_the_world
+		}
+		mutually_exclusive = {
+			focus = GER_Four-track_railway_line
+		}
+		x = 66
+		y = 2
+
+	}
+	focus = {
+		id = GER_coal_revival
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Autarky
+		}
+		x = 68
+		y = 1
+
+	}
+	focus = {
+		id = GER_synthetic_rubber
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_coal_revival
+		}
+		x = 68
+		y = 2
+
+	}
+	focus = {
+		id = GER_Großraumwirtschaft
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Autarky
+		}
+		x = 71
+		y = 1
+
+	}
+	focus = {
+		id = GER_Hermann_Göring_Werke
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_synthetic_rubber
+		}
+		x = 73
+		y = 2
+
+	}
+	focus = {
+		id = GER_Economic_oppression_of_the_Jews
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Hermann_Göring_Werke
+		}
+		x = 72
+		y = 3
+
+	}
+	focus = {
+		id = GER_krauch_plan
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Economic_oppression_of_the_Jews
+		}
+		x = 72
+		y = 4
+
+	}
+	focus = {
+		id = GER_synthetic_rubber
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_coal_revival
+		}
+		x = 74
+		y = 1
+
+	}
+	focus = {
+		id = GER_economic_council_of_the_tank_industry
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Autobahn_construction
+		}
+		x = 74
+		y = 3
+
+	}
+	focus = {
+		id = GER_Stick_to_the_new_Shaht_plan
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Autarky
+		}
+		mutually_exclusive = {
+			focus = GER_synthetic_rubber
+		}
+		x = 76
+		y = 1
+
+	}
+	focus = {
+		id = GER_Kdf-varen
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Autobahn_construction
+		}
+		x = 76
+		y = 3
+
+	}
+	focus = {
+		id = GER_preservation_of_the_national_economy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Stick_to_the_new_Shaht_plan
+		}
+		x = 77
+		y = 2
+
+	}
+	focus = {
+		id = GER_focus_on_the_military_industry
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_preservation_of_the_national_economy
+		}
+		x = 78
+		y = 3
+
+	}
+	focus = {
+		id = GER_nconsider_economic_benefits
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_focus_on_the_military_industry
+		}
+		x = 78
+		y = 4
+
+	}
+	focus = {
+		id = GER_commander-in-chief_willy_leow
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_german_red_army
+		}
+		mutually_exclusive = {
+			focus = GER_commander_in_chief_paulus
+		}
+		x = 84
+		y = 1
+
+	}
+	focus = {
+		id = GER_commander_in_chief_paulus
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_german_red_army
+		}
+		mutually_exclusive = {
+			focus = GER_commander-in-chief_willy_leow
+		}
+		x = 86
+		y = 1
+
+	}
+	focus = {
+		id = GER_restoration_of_the_country's_fleet
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_commander-in-chief_willy_leow
+			focus = GER_commander_in_chief_paulus
+		}
+		x = 81
+		y = 2
+
+	}
+	focus = {
+		id = GER_Abandon_the_meaningless_race
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_restoration_of_the_country's_fleet
+		}
+		x = 81
+		y = 3
+
+	}
+	focus = {
+		id = GER_use_the_experience_of_the_Red_Army
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_commander-in-chief_willy_leow
+			focus = GER_commander_in_chief_paulus
+		}
+		x = 83
+		y = 2
+
+	}
+	focus = {
+		id = GER_mobilized_reserves
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_commander-in-chief_willy_leow
+			focus = GER_commander_in_chief_paulus
+		}
+		x = 85
+		y = 2
+
+	}
+	focus = {
+		id = GER_use_the_army_to_rebuild_the_country
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_mobilized_reserves
+		}
+		prerequisite = {
+			focus = GER_commander-in-chief_willy_leow
+		}
+		x = 84
+		y = 3
+
+	}
+	focus = {
+		id = GER_Restore_strict_discipline
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_commander_in_chief_paulus
+		}
+		prerequisite = {
+			focus = GER_mobilized_reserves
+		}
+		x = 86
+		y = 3
+
+	}
+	focus = {
+		id = GER_simplified_armored_production
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_Restore_strict_discipline
+			focus = GER_use_the_army_to_rebuild_the_country
+		}
+		x = 85
+		y = 4
+
+	}
+	focus = {
+		id = GER_apply_own_strategic_developments
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_commander_in_chief_paulus
+			focus = GER_commander-in-chief_willy_leow
+		}
+		x = 87
+		y = 2
+
+	}
+	focus = {
+		id = GER_introduction_of_night_vision_devices
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_focus_on_uranium_project
+			focus = GER_v-2
+		}
+		x = 30
+		y = 6
+
+	}
+	focus = {
+		id = GER_create_a_red_air_force
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_commander_in_chief_paulus
+			focus = GER_commander-in-chief_willy_leow
+		}
+		x = 89
+		y = 2
+
+	}
+	focus = {
+		id = GER_attract_old_aircraft_designers
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_create_a_red_air_force
+		}
+		x = 89
+		y = 3
+
+	}
+}
