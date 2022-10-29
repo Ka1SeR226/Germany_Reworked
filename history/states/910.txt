@@ -1,0 +1,26 @@
+state={
+	id=910
+	name="STATE_910"
+	manpower = 381300
+
+	state_category = large_city
+
+	history={
+		owner = BEL
+		victory_points = {
+			3488 1
+		}
+
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = BEL
+	}
+
+	provinces={
+		3488
+	}
+
+	local_supplies=14.0
+}

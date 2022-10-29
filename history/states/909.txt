@@ -1,0 +1,27 @@
+state= {
+	id=909
+	name="STATE_909"
+	manpower = 72235
+
+	state_category = town
+
+	history=
+	{
+		owner = DEN
+		victory_points = {
+		 11251 1
+		}
+    victory_points = {
+    332 1
+    }
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = DEN
+	}
+	provinces=
+	{
+332 11251 	}
+
+	local_supplies=0.0
+}

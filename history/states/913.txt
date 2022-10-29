@@ -1,0 +1,48 @@
+
+state={
+	id=913
+	name="STATE_913"
+	manpower = 1000000
+
+  victory_points = {
+  6488 35
+}
+victory_points = {
+  3574 2
+}
+victory_points = {
+  589 1
+}
+victory_points = {
+  6444 3
+}
+victory_points = {
+  9486 1
+}
+
+	state_category = metropolis
+
+	history={
+		owner = GER
+
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = GER
+
+		set_demilitarized_zone = yes
+
+		1936.3.7 = {
+			set_demilitarized_zone = no
+		}
+	}
+
+	provinces={
+		3574 589 6444 9486 6488
+	}
+
+
+
+	local_supplies=0.0
+}
