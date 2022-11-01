@@ -52,14 +52,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = GER_operation_Barbarossa
-		icon = GFX_goal_unknown
-		cost = 10,00
-		x = 96
-		y = 4
-
-	}
-	focus = {
 		id = GER_oppose_Hitler
 		icon = GFX_goal_unknown
 		cost = 10,00
@@ -551,8 +543,8 @@ focus_tree = {
 			focus = GER_focus_on_heavy_tanks
 		}
 		mutually_exclusive = {
-			focus = GER_new_generation_tank_concept
 			focus = GER_support_the_idea_of_land_cruisers
+			focus = GER_new_generation_tank_concept
 		}
 		x = 39
 		y = 5
@@ -592,8 +584,8 @@ focus_tree = {
 			focus = GER_study_the_Soviet_experience
 		}
 		mutually_exclusive = {
-			focus = GER_push_through_the_development_of_super-heavy_tanks
 			focus = GER_support_the_idea_of_land_cruisers
+			focus = GER_push_through_the_development_of_super-heavy_tanks
 		}
 		x = 41
 		y = 5
@@ -760,8 +752,8 @@ focus_tree = {
 			focus = GER_development_of_the_navy
 		}
 		mutually_exclusive = {
-			focus = GER_revival_of_the_high_seas_fleet
 			focus = GER_plan_z
+			focus = GER_revival_of_the_high_seas_fleet
 		}
 		x = 55
 		y = 2
@@ -797,8 +789,8 @@ focus_tree = {
 			focus = GER_shipyard_expansion
 		}
 		mutually_exclusive = {
-			focus = GER_submarine_development
 			focus = GER_plan_z
+			focus = GER_submarine_development
 		}
 		x = 57
 		y = 2
@@ -899,6 +891,9 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_coal_revival
 		}
+		prerequisite = {
+			focus = GER_coal_revival
+		}
 		x = 68
 		y = 2
 
@@ -951,6 +946,9 @@ focus_tree = {
 		id = GER_synthetic_rubber
 		icon = GFX_goal_unknown
 		cost = 10,00
+		prerequisite = {
+			focus = GER_coal_revival
+		}
 		prerequisite = {
 			focus = GER_coal_revival
 		}
@@ -1272,9 +1270,23 @@ focus_tree = {
 
 	}
 	focus = {
+		id = GER_operation_Barbarossa
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GER_reassert_eastern_claims
+		}
+		x = 96
+		y = 4
+
+	}
+	focus = {
 		id = GER_anti-comintern_pact
 		icon = GFX_goal_unknown
 		cost = 10,00
+		prerequisite = {
+			focus = GER_agrarian's_foreign_policy
+		}
 		prerequisite = {
 			focus = GER_agrarian's_foreign_policy
 		}
@@ -2235,6 +2247,9 @@ focus_tree = {
 		id = GER_anti-comintern_pact
 		icon = GFX_goal_unknown
 		cost = 10,00
+		prerequisite = {
+			focus = GER_agrarian's_foreign_policy
+		}
 		prerequisite = {
 			focus = GER_agrarian's_foreign_policy
 		}
